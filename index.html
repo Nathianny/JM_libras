@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jogo da Memória de Libras</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+
+        <div>
+            <section class="placar">            
+                <section class="resultado">
+                    <h1>Placar</h1>
+                    <div id="resultado">0</div>
+                </section>
+                <section class="resultado">
+                    <h1>Tempo</h1>
+                    <div id="tempo">0</div>
+                </section>
+            </section>
+            <section class="jogo">
+                <div class="cartao" data-info="amarelo">
+                   <img src="./src/img/amarelo.jpeg" class="frente-cartao" alt="Frente do cartão">
+                   <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="amarelo">
+                  <img src="./src/img/quadradro_amarelo.png" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="azul">
+                 <img src="./src/img/azul.jpeg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="azul">
+                 <img src="./src/img/quadrado_azul.jpeg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="branco">
+                 <img src="./src/img/branco.jpeg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="branco">
+                 <img src="./src/img/quadrado_branco.png" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="cinza">
+                 <img src="./src/img/cinza.jpeg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="cinza">
+                 <img src="./src/img/quadrado_cinza.jpg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="dourado">
+                 <img src="./src/img/dourado.jpeg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="dourado">
+                 <img src="./src/img/quadradro_dourado.jpg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="laranja">
+                 <img src="./src/img/laranja.jpeg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="laranja">
+                 <img src="./src/img/quadradro_laranja.jpg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>           
+                <div class="cartao" data-info="marrom">
+                 <img src="./src/img/marrom.jpeg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="marrom">
+                 <img src="./src/img/quadrado_marrom.png" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="preto">
+                 <img src="./src/img/preto.jpeg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="preto">
+                 <img src="./src/img/quadrado_preto.png" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="rosa">
+                 <img src="./src/img/rosa.jpeg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="rosa">
+                 <img src="./src/img/quadrado_rosa.png" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="roxo">
+                 <img src="./src/img/roxo.jpeg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="roxo">
+                 <img src="./src/img/quadrado_roxo.jpg" class="frente-cartao" alt="Frente do cartão">
+                 <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                </div>
+                <div class="cartao" data-info="verde">
+                    <img src="./src/img/verde.jpeg" class="frente-cartao" alt="Frente do cartão">
+                    <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                   </div>
+                   <div class="cartao" data-info="verde">
+                    <img src="./src/img/quadradro_verde.png" class="frente-cartao" alt="Frente do cartão">
+                    <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                   </div>
+                   <div class="cartao" data-info="vermelho">
+                    <img src="./src/img/vermelho.jpeg" class="frente-cartao" alt="Frente do cartão">
+                    <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                   </div>
+                   <div class="cartao" data-info="vermelho">
+                    <img src="./src/img/quadrado_vermelho.png" class="frente-cartao" alt="Frente do cartão">
+                    <img src="./src/img/logo.png" class="verso-cartao" alt="Verso do cartão">
+                   </div>
+            </section>                 
+        </div>
+
+        <section id="recordes">
+            <h1>Recordes</h1>
+            <table id="resultados">
+                <thead>
+                    <td>
+                        Nome
+                    </td>
+                    <td>
+                        Pontuação
+                    </td>
+                    <td>
+                        Tempo
+                    </td>
+                </thead>
+                
+            </table>
+            <div>
+             <button class="reiniciar" onclick="reiniciarJogo()">Reiniciar Jogo</button>
+             <button class="reiniciar" onclick="reiniciarPlacar()">Reiniciar Placar</button>
+            </div>
+        </section>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
