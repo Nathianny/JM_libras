@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    background-color: lightskyblue;
+    background-color: #24abc5;
     display: flex;
     align-items: flex-start;
     justify-content: center;      
@@ -39,7 +39,7 @@ body{
 
 .cartao{
     width: calc(20% - 10px);
-    height: calc(22.222% - 10px);
+    height: calc(22.222% - 1px);
     margin: 5px;
     position: relative;
     box-shadow: 1 px 1 px 1 px rgba(0, 0, 0, 0,3 );
@@ -59,9 +59,9 @@ body{
 }
 
 .frente-cartao, .verso-cartao{
-    width: 100%;
+    width: 105%;
     height: 100%;
-    padding: 20px;
+    padding: 5px;
     position: absolute;
     border-radius: 10px;
     backface-visibility: hidden;
@@ -82,22 +82,22 @@ body{
 }
 
 td{
-    border: 3px solid rgb(107, 15, 126);
+    border: 3px solid #692084;
     text-align: center;
     width: 120px;
-    background-color: white;
+    background-color: #fbfbfc;
 }
 
 .reiniciar{
     width: 100%;
     border-radius: 5px;
-    background-color: #9006b2;
-    color: white;
+    background-color: #692084;
+    color: #fbfbfc;
     margin-top: 15px;
     height: 30px;
 }
 
 .reiniciar:hover{
-    color: #7613af;
-    background-color: aquamarine;
+    color: white;
+    background-color: #f6822f;
 }

@@ -19,9 +19,9 @@ var placar = 0;
 var tempo = 0;
 
 var intervalo = setInterval(function () {
-  if (tempo == 80 || placar == 12) {
+  if (tempo == 100 || placar == 10) {
     clearInterval(intervalo);
-    if (placar == 12) {
+    if (placar == 10) {
       alert(
         "Parabéns! Você ganhou! O seu tempo foi de " + tempo + " segundos."
       );
