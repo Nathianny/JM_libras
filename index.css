@@ -101,3 +101,19 @@ td{
     color: white;
     background-color: #f6822f;
 }
+
+footer{
+    background-color: whitesmoke;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+footer p{
+    color: black;
+    align-items: center;
+}
