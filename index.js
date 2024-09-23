@@ -39,7 +39,7 @@ var intervalo = setInterval(function () {
     var resultado = {
       nomeJogador: nome,
       pontuacao: placar,
-      tempo: tempo,
+      tempo: tempo
     };
 
     resultadosExistentes.push(resultado);

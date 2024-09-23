@@ -29,8 +29,8 @@ body{
 }
 
 .jogo{
-    width: 640px;
-    height: 640px;
+    width: 1000px;
+    height: 900px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
